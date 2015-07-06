@@ -17,6 +17,31 @@ body {
   text-align: center;
 }
 
+.horizontal-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size:  1.5em;
+  text-align: center;
+}
+
+.horizontal-list li {
+  display: inline;
+}
+
+.horizontal-list a {
+  display: inline-block;
+  padding: .5em;
+  text-decoration: none;
+}
+
+.navigation a {
+  color: rgba(231, 76, 60, .8);
+}
+
+.social a {
+  color: rgb(243, 156, 18);
+}
 .resume-title {
   font-size: 2.5em;
   font-weight: bolder;
