@@ -1,16 +1,30 @@
-.home-title {
-  font-family: 'Adobe Caslon Pro','Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
-  font-size: 4em;
+body {
+  font-family: 'Adobe Caslon Pro', 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
   font-style: normal;
   font-variant: normal;
+}
+
+.home-title {
+  font-size: 4em;
   font-weight: bolder;
   text-align: center;
 }
 
 .bio {
-  font-family: 'Adobe Caslon Pro','Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  max-width: 40em;
+  margin: auto;
   font-size: 1.25em;
-  font-style: normal;
+  text-align: center;
+}
+
+.resume-title {
+  font-size: 2.5em;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.head {
+  font-size: 1.25em;
   text-align: center;
   max-width: 40em;
   margin: auto;
