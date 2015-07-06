@@ -42,6 +42,12 @@ body {
 .social a {
   color: rgb(243, 156, 18);
 }
+
+.blog-title {
+  font-size: 3em;
+  text-align: center;
+}
+
 .resume-title {
   font-size: 2.5em;
   font-weight: bolder;
